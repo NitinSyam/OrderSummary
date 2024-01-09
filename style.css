@@ -1,0 +1,120 @@
+.form{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.img-hero img{
+    width: 375px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title{
+    width: 375px;
+    padding-top: 2rem;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+}
+
+.info{
+    width: 375px;
+    font-size: 16px;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: white;
+}
+
+.bill-color{
+    width: 375px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bill{
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(227, 234, 244);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bill img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bill-content{
+    text-align: left;
+    margin-left: -4.5rem;
+}
+
+.change-link{
+    margin-right: 1.5rem;
+    color: rgb(9, 9, 186);
+}
+
+.proceed-color{
+    width: 375px;
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.proceed{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.proceed:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: blue;
+}
+
+.cancel{
+    width: 375px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 18px;
+    color: gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.attribution{
+    font-size: 11px; text-align: center; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
